@@ -1,0 +1,59 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fbf8ef;color:#2d2a22;font-family:Arial,Helvetica,sans-serif}button,a{font:inherit}button{cursor:pointer}main{min-height:100vh;overflow:hidden;position:relative}.orb{position:fixed;width:440px;height:440px;border-radius:50%;filter:blur(100px);opacity:.16;pointer-events:none;z-index:0}.orb1{background:#d7ad59;top:-170px;left:-190px}.orb2{background:#9eb6a0;right:-200px;bottom:0}.hero,.section,.scripture,.moments,.quoteSection,.final,footer{position:relative;z-index:1}.hero{min-height:94vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:65px 22px 45px;background:radial-gradient(circle at 50% 28%,#fff 0,#fbf8ef 64%,#f0eadc 100%)}.topBadge{display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border:1px solid #e5d8ba;border-radius:999px;background:#fffaf0;color:#816a39;font-size:12px}.goldCross{width:78px;height:78px;border-radius:25px;margin:27px 0 18px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,#a37d3c,#d0ad67);box-shadow:0 20px 50px #8d6b352d;animation:float 4s ease-in-out infinite}@keyframes float{50%{transform:translateY(-7px) rotate(1deg)}}.eyebrow{margin:0 0 12px;letter-spacing:.21em;font-size:11px;font-weight:800;color:#9b7840}.hero h1{font-size:clamp(45px,7vw,82px);line-height:.96;letter-spacing:-.06em;margin:0}.hero h1 span{color:#96723a}.hero h1 i{font-style:normal;color:#526e5b}.heroLead{max-width:730px;margin:25px 0 29px;color:#706b60;line-height:1.85;font-size:16px}.heroActions{display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:center}.primary,.secondary{border-radius:14px;padding:14px 20px;display:inline-flex;align-items:center;gap:9px;font-weight:700;text-decoration:none;transition:.2s}.primary{border:0;color:#fff;background:linear-gradient(135deg,#9b773f,#637f68);box-shadow:0 14px 36px #67553629}.primary:hover,.secondary:hover{transform:translateY(-2px)}.secondary{color:#655d50;border:1px solid #ddd2bb;background:#fffdf8}.scroll{margin-top:31px;color:#948a78;font-size:12px;display:flex;align-items:center;gap:6px}.section{max-width:1120px;margin:auto;padding:90px 22px}.intro{text-align:center;max-width:950px}.ornament{color:#b18a4c;font-size:24px;margin-bottom:15px}.intro h2,.heading h2{font-size:clamp(32px,5vw,49px);letter-spacing:-.045em;margin:0 0 17px}.intro>p:not(.eyebrow){max-width:820px;margin:13px auto;color:#6d685e;line-height:1.9;font-size:15px}.heading{text-align:center;margin-bottom:40px}.heading>p:last-child{color:#817a6e;margin:0;line-height:1.7}.heading .bookIcon{color:#9b7840;margin-bottom:12px}.ministry{padding-top:45px}.ministryGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.ministryCard{position:relative;padding:25px;border:1px solid #e5dece;border-radius:22px;background:#fffdf8;box-shadow:0 12px 38px #59492b0c;transition:.25s;overflow:hidden}.ministryCard:after{content:"✿";position:absolute;right:-8px;bottom:-19px;font-size:70px;color:#d7c5a1;opacity:.16}.ministryCard:hover{transform:translateY(-4px);border-color:#cdbb95;box-shadow:0 20px 48px #59492b18}.ministryIcon{font-size:29px}.cardNumber{position:absolute;right:18px;top:17px;color:#c6b797;font-weight:800;font-size:11px}.ministryCard h3{margin:18px 0 9px;font-size:19px}.ministryCard p{margin:0;color:#716b60;font-size:14px;line-height:1.7}.scripture{background:#f0eadc}.scripture .section{padding-top:85px;padding-bottom:100px}.verseGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.verseCard{position:relative;text-align:left;min-height:245px;padding:23px;border:1px solid #ded3bb;border-radius:21px;background:#fffdf8;color:#302d26;transition:.22s}.verseCard:hover{transform:translateY(-4px);box-shadow:0 17px 42px #59492b16;border-color:#c7b387}.verseCard svg{color:#9b7840}.verseNum{position:absolute;right:18px;top:17px;color:#c1b08e;font-size:11px;font-weight:800}.verseCard h3{margin:17px 0 10px;font-size:18px}.verseCard p{font:italic 15px/1.7 Georgia,serif;color:#625c50}.verseCard small{color:#98743c;font-weight:700}.people{text-align:center}.peopleStrip{display:flex;gap:11px;flex-wrap:wrap;justify-content:center}.personPill{padding:12px 16px;border-radius:999px;background:#fffdf8;border:1px solid #e4dccb;color:#655f54;font-size:13px;box-shadow:0 8px 25px #59492b08}.personPill span{margin-right:7px}.moments{background:#28372f;color:#fff}.moments .heading>p:last-child{color:#cfd4cc}.momentLayout{display:grid;grid-template-columns:.85fr 1.15fr;gap:22px}.momentList{display:flex;flex-direction:column;gap:8px}.moment{border:1px solid #536258;background:#314139;color:#e9ece7;padding:15px 17px;border-radius:14px;display:grid;grid-template-columns:35px 1fr 16px;align-items:center;text-align:left;transition:.2s}.moment span{font-size:21px}.moment b{font-size:14px}.moment.active,.moment:hover{background:#3c4c41;border-color:#a78b55;transform:translateX(3px)}.momentDisplay{min-height:430px;border:1px solid #58675c;border-radius:28px;background:radial-gradient(circle at 50% 25%,#43554a,#2e3d35 65%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px;position:relative;overflow:hidden}.flowerBig{position:absolute;font-size:190px;color:#d6b56d;opacity:.06;top:10px}.displayIcon{font-size:48px;margin-bottom:18px}.momentDisplay .eyebrow{color:#d2b46f}.momentDisplay h3{font-size:32px;margin:0 0 13px}.momentDisplay p:not(.eyebrow){max-width:500px;color:#d7ddd6;line-height:1.8}.sparkleLine{color:#d2b46f;margin-top:17px}.photoSection{padding-bottom:105px}.photoGrid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:35px}.photoSlot{aspect-ratio:1;position:relative;overflow:hidden;border-radius:18px;background:#eee7d8;border:1px solid #ddd3bd}.photoSlot img{width:100%;height:100%;object-fit:cover;display:block}.photoPlaceholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#a18b65;font-size:11px}.photoSlot:not(.empty) .photoPlaceholder{display:none}.quoteSection{padding:100px 25px;text-align:center;background:#eee5d2;color:#3b352b}.quoteSection svg{color:#a17c40}.quoteSection h2{max-width:850px;margin:22px auto 15px;font:italic 30px/1.45 Georgia,serif}.quoteSection p{max-width:680px;margin:auto;color:#6f685c;line-height:1.8}.blessing{padding-top:105px;padding-bottom:80px}.blessingCard{max-width:900px;margin:auto;text-align:center;padding:55px 35px;border-radius:30px;background:linear-gradient(145deg,#fffdf8,#f6edda);border:1px solid #e3d6ba;box-shadow:0 25px 75px #57452614}.sunIcon{color:#a17b3f;margin-bottom:12px}.blessingCard h2{font-size:clamp(29px,4vw,43px);margin:0 0 18px;letter-spacing:-.04em}.blessingCard p:not(.eyebrow){max-width:720px;margin:13px auto;color:#6b655b;line-height:1.85}.stars{color:#b38a47;margin-top:25px}.final{padding:20px 20px 100px}.finalCard{max-width:900px;margin:auto;text-align:center;padding:60px 38px;border-radius:32px;background:linear-gradient(145deg,#fff,#f7efdd);border:1px solid #e4d6b9;box-shadow:0 30px 90px #58472819;color:#9b7840}.heartRing{width:68px;height:68px;border-radius:22px;margin:0 auto 20px;display:grid;place-items:center;background:#f4e8cf}.finalCard h2{font-size:39px;color:#2e2b25;margin:5px 0 20px}.finalCard p:not(.eyebrow){max-width:730px;margin:14px auto;color:#625d54;line-height:1.9}.finalCard strong{display:block;max-width:730px;margin:27px auto;line-height:1.7}.signature{color:#8d7a5c;font-size:13px}footer{background:#202d27;color:#d8ddd7;text-align:center;padding:28px 20px 40px;font-size:12px}footer div{display:flex;justify-content:center;align-items:center;gap:8px;margin-bottom:8px;color:#d3b16c}footer span{color:#9ea8a0}.modalBack{position:fixed;inset:0;z-index:20;background:#151b1878;backdrop-filter:blur(9px);display:grid;place-items:center;padding:20px}.modal{position:relative;width:min(620px,100%);max-height:90vh;overflow:auto;background:#fffdf8;border-radius:30px;padding:43px 31px;text-align:center;box-shadow:0 35px 110px #100e0a50;animation:pop .3s ease-out}@keyframes pop{from{opacity:0;transform:scale(.92) translateY(12px)}to{opacity:1;transform:none}}.close{position:absolute;right:15px;top:15px;width:37px;height:37px;border:0;border-radius:50%;display:grid;place-items:center;background:#eee7d8;color:#61594b}.modalIcon{width:67px;height:67px;margin:8px auto 18px;border-radius:22px;display:grid;place-items:center;background:#f2e7ce;color:#9b7840}.modal h2{font-size:30px;line-height:1.25;margin:0 0 17px;color:#302c25}.modal p{color:#686258;line-height:1.85}.highlight{color:#9b7740;font-weight:800;margin:23px 0!important}.surpriseFlowers{color:#c3a05e;font-size:18px;margin-bottom:4px}.petals{position:fixed;inset:0;z-index:5;pointer-events:none;overflow:hidden}.petals span{position:absolute;top:-30px;color:#d4ae68;opacity:.32;animation:petalFall linear infinite}@keyframes petalFall{to{transform:translateY(110vh) rotate(420deg);opacity:.03}}@media(max-width:900px){.ministryGrid,.verseGrid{grid-template-columns:repeat(2,1fr)}.photoGrid{grid-template-columns:repeat(4,1fr)}.momentLayout{grid-template-columns:1fr}.momentDisplay{min-height:330px}}@media(max-width:600px){.hero{min-height:90vh}.hero h1{font-size:47px}.heroActions{flex-direction:column;width:100%}.primary,.secondary{justify-content:center}.section{padding:70px 17px}.ministryGrid,.verseGrid{grid-template-columns:1fr}.photoGrid{grid-template-columns:repeat(3,1fr)}.finalCard{padding:45px 22px}.finalCard h2{font-size:31px}.quoteSection h2{font-size:24px}.momentDisplay{padding:30px 20px}.modal{padding:40px 22px}}
+.photoGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+  
+  .photoSlot {
+    position: relative;
+    height: 240px;
+    overflow: visible;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+  
+  .photoSlot:hover {
+    transform: scale(1.03);
+    z-index: 100;
+  }
+  
+  .photoSlot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+    display: block;
+    transition:
+      transform 0.4s ease,
+      box-shadow 0.4s ease;
+  }
+  
+  /* Full image on hover */
+  .photoSlot:hover img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    max-width: none;
+    object-fit: contain;
+    background: #fff;
+    padding: 8px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
+    z-index: 100;
+  }
+  .createdBy {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  .createdBy b {
+    font-weight: 700;
+  }
